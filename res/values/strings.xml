@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Thermostat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Thermostat</string>
+    <string name="temperature">Loading temperature ..</string>
+    <string name="create_notification">Create Notification</string>
+    <string name="fetchTemperature">Fetch Temperature</string>
+    <string name="title_activity_fetch_temperature">Fetch Temperature</string>
+    <string name="refresh">Refresh</string>
+
+</resources>

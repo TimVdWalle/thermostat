@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thermostat_background2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_marginTop="@dimen/myMargin"
+        android:singleLine="true"
+        android:text="@string/temperature"
+        android:textColor="@color/textColorWhite" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_marginTop="@dimen/myMargin"
+        android:onClick="fetchTemperature"
+        android:text="@string/refresh" />
+
+</LinearLayout>
